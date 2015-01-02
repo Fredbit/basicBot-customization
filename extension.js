@@ -66,45 +66,45 @@
         cycleGuard: true,
         maximumCycletime: 10,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 8,
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 3,
+        lockskipPosition: 2,
         lockskipReasons: [
-            ["theme", "This song does not fit the room theme. "],
-            ["op", "This song is on the OP list. "],
-            ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
-            ["sound", "The song you played had bad sound quality or no sound. "],
-            ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
+            ["theme", "Beep boop, this song isn't indie!. "],
+            ["op", "Beep boop, this song is on the OP list. "],
+            ["history", "Beep boop, this song is in the history. "],
+            ["mix", "Boop beep, it's not cool to play a mix here. "],
+            ["sound", "Boop beep, the song you played had bad sound quality or no sound. "],
+            ["nsfw", "Boop beep, the song you contained was NSFW (image or sound). "],
+            ["unavailable", "Beeeeep, the song you played was not available for some users. "]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
-        motdEnabled: false,
-        motdInterval: 5,
-        motd: "Temporary Message of the Day",
+        motdEnabled: true,
+        motdInterval: 160,
+        motd: "Happy new year! Enjoy your stay at IndieGoogle+!",
         filterChat: true,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
-        rulesLink: null,
+        rulesLink: ["http://goo.gl/C1ZICB"],
         themeLink: null,
-        fbLink: null,
+        fbLink: ["https://www.facebook.com/groups/indiegoogle/"],
         youtubeLink: null,
-        website: null,
-        intervalMessages: [],
+        website: ["http://www.last.fm/user/IndieGoogle"],
+        intervalMessages: ["Make sure to join our Facebook group for updates and information! https://www.facebook.com/groups/indiegoogle/ ", "Enjoying your stay? Make yourself at home and join in!", "Want to see what kind of music is played here? Be sure to check out the last.fm account to see the artists played! http://www.last.fm/user/IndieGoogle"," Take a look at our FAQ to see if any questions are answered there! http://goo.gl/C1ZICB "],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/Fredbit/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Fredbit/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript('https://rawgit.com/Yemasthui/basicBot/master/basicBot.js', extend);
+    $.getScript('https://rawgit.com/Fredbit/basicBot/master/basicBot.js', extend);
 
 }).call(this);
