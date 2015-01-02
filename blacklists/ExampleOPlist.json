@@ -1,13 +1,17 @@
 {
     "1":{
-        "mid": "1:OPsongID1"
+        "title": "Do I Wanna Know?",
+        "author": "Arctic Monkeys",
+        "mid": "https://www.youtube.com/watch?v=bpOSxM0rNPM"
     },
     "2":{
-        "title": "This is a OP song",
-        "author": "The OP band",
-        "mid": "1:OPsongID2"
+        "title": "Kids",
+        "author": "MGMT",
+        "mid": "https://www.youtube.com/watch?v=fe4EK4HSPkI"
     },
     "3":{
-        "mid": "1:OPsongID3"
+        "title": "Lisztomania",
+        "author": "Phoenix",
+        "mid": "https://www.youtube.com/watch?v=4BJDNw7o6so"
     }
 }
